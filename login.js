@@ -34,7 +34,7 @@ button.addEventListener('click', function (e) {
             // Signed in 
             const user = userCredential.user;
             alert('Sign in successfully');
-            window.location.href = '/List--vocabulary/vocabulary.html';
+            window.location.href = 'vocabulary.html';
             // ...
         })
         .catch((error) => {
