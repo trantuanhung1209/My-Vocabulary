@@ -1,0 +1,12 @@
+{
+  "name": "lesson_1",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "pug -w ./template -o ./ -P",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

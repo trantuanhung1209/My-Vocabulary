@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --font-main: 'Be Vietnam Pro', sans-serif;
+    --color-text-dark: #000;
+    --color-tex-light: #DEDEDE;
+    --color-btn: #3dbaa9;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #DEDEDE;
+    font-family: var(--font-main);
+}
+
+
+
+.main {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 80px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-form-1 {
+    width: 50%;
+    padding: 40px 32px;
+    background-color: #FDFDFD;
+}
+
+.inner-heading {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.inner-desc {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    margin: 0;
+}
+
+.spacer {
+    margin: 20px 0;
+}
+
+.inner-form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.inner-form-group label {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.inner-form-group input {
+    flex: 1;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+    font-size: 16px;
+    outline-color: var(--color-btn);
+}
+
+.inner-form-group .inner-message {
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.inner-form-group .inner-message-success {
+    color: rgb(0, 128, 0);
+}
+
+.message-error-password,
+.message-error-user {
+    color: rgb(226, 97, 97);
+}
+
+.button {
+    padding: 10px;
+    background-color: var(--color-btn);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    width: 100%;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button:hover {
+    background-color: #2a9486;
+}
+
+.inner-form-buttom {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* class js */
+.invalid input {
+    border-color: rgb(226, 97, 97);
+}
+
+.invalid input::placeholder {
+    color: rgb(226, 97, 97);
+}
+
+.invalid .inner-message {
+    color: rgb(226, 97, 97);
+}
+
+/* End class js */

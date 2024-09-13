@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 100px auto;
+    border: 1px solid #eee;
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    padding: 80px 40px;
+}
+
+.container .title {
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+    background: -webkit-linear-gradient(#da8f8f, #eac8c8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container .inner-wrap {
+    padding: 80px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 65px;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-left {
+    width: calc((100% - 65px) / 2);
+}
+
+.inner-right {
+    width: calc((100% - 65px) / 2);
+}
+
+.inner-right #vocab-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    background: -webkit-linear-gradient(#da8f8f, #eac8c8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.inner-right #vocab-list li {
+    margin: 5px 0;
+}
+
+.inner-right #vocab-list li::before {
+    content: "*";
+    font-size: 16px;
+    color: #ff6e7f;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.inner-left .subtitle {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0 0 8px 0;
+    background: -webkit-linear-gradient(#da8f8f, #eac8c8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.inner-left .inner-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-left .inner-form input {
+    flex: 1;
+    padding: 12px 12px;
+    border-radius: 8px;
+    outline: transparent;
+    border: 1px solid #e9a1a1;
+    height: 44px;
+}
+
+.inner-left .inner-form input::placeholder {
+    color: #e2b9b9;
+}
+
+.button {
+    background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.inner-right .subtitle {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0 0 8px 0;
+    background: -webkit-linear-gradient(#da8f8f, #eac8c8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
